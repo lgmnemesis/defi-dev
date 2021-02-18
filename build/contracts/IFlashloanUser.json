@@ -39,15 +39,15 @@
     "absolutePath": "/C/Lgm local/defi-dev/contracts/flashloan/IFlashloanUser.sol",
     "exportedSymbols": {
       "IFlashloanUser": [
-        422
+        753
       ]
     },
-    "id": 423,
+    "id": 754,
     "license": "MIT",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 412,
+        "id": 743,
         "literals": [
           "solidity",
           "^",
@@ -55,7 +55,7 @@
           ".4"
         ],
         "nodeType": "PragmaDirective",
-        "src": "33:23:7"
+        "src": "33:23:8"
       },
       {
         "abstract": false,
@@ -63,33 +63,33 @@
         "contractDependencies": [],
         "contractKind": "interface",
         "fullyImplemented": false,
-        "id": 422,
+        "id": 753,
         "linearizedBaseContracts": [
-          422
+          753
         ],
         "name": "IFlashloanUser",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "functionSelector": "a6fc41ab",
-            "id": 421,
+            "id": 752,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "flashloanCallback",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 419,
+              "id": 750,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 414,
+                  "id": 745,
                   "mutability": "mutable",
                   "name": "amount",
                   "nodeType": "VariableDeclaration",
-                  "scope": 421,
-                  "src": "129:14:7",
+                  "scope": 752,
+                  "src": "129:14:8",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -97,10 +97,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 413,
+                    "id": 744,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "129:7:7",
+                    "src": "129:7:8",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -110,12 +110,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 416,
+                  "id": 747,
                   "mutability": "mutable",
                   "name": "token",
                   "nodeType": "VariableDeclaration",
-                  "scope": 421,
-                  "src": "154:13:7",
+                  "scope": 752,
+                  "src": "154:13:8",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -123,10 +123,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 415,
+                    "id": 746,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "154:7:7",
+                    "src": "154:7:8",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -137,12 +137,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 418,
+                  "id": 749,
                   "mutability": "mutable",
                   "name": "data",
                   "nodeType": "VariableDeclaration",
-                  "scope": 421,
-                  "src": "178:17:7",
+                  "scope": 752,
+                  "src": "178:17:8",
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
@@ -150,10 +150,10 @@
                     "typeString": "bytes"
                   },
                   "typeName": {
-                    "id": 417,
+                    "id": 748,
                     "name": "bytes",
                     "nodeType": "ElementaryTypeName",
-                    "src": "178:5:7",
+                    "src": "178:5:8",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes_storage_ptr",
                       "typeString": "bytes"
@@ -162,33 +162,33 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "118:84:7"
+              "src": "118:84:8"
             },
             "returnParameters": {
-              "id": 420,
+              "id": 751,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "211:0:7"
+              "src": "211:0:8"
             },
-            "scope": 422,
-            "src": "92:120:7",
+            "scope": 753,
+            "src": "92:120:8",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
           }
         ],
-        "scope": 423,
-        "src": "60:155:7"
+        "scope": 754,
+        "src": "60:155:8"
       }
     ],
-    "src": "33:184:7"
+    "src": "33:184:8"
   },
   "legacyAST": {
     "attributes": {
       "absolutePath": "/C/Lgm local/defi-dev/contracts/flashloan/IFlashloanUser.sol",
       "exportedSymbols": {
         "IFlashloanUser": [
-          422
+          753
         ]
       },
       "license": "MIT"
@@ -203,9 +203,9 @@
             ".4"
           ]
         },
-        "id": 412,
+        "id": 743,
         "name": "PragmaDirective",
-        "src": "33:23:7"
+        "src": "33:23:8"
       },
       {
         "attributes": {
@@ -219,10 +219,10 @@
           "contractKind": "interface",
           "fullyImplemented": false,
           "linearizedBaseContracts": [
-            422
+            753
           ],
           "name": "IFlashloanUser",
-          "scope": 423
+          "scope": 754
         },
         "children": [
           {
@@ -235,7 +235,7 @@
                 null
               ],
               "name": "flashloanCallback",
-              "scope": 422,
+              "scope": 753,
               "stateMutability": "nonpayable",
               "virtual": false,
               "visibility": "external"
@@ -248,7 +248,7 @@
                       "constant": false,
                       "mutability": "mutable",
                       "name": "amount",
-                      "scope": 421,
+                      "scope": 752,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "uint256",
@@ -260,21 +260,21 @@
                           "name": "uint256",
                           "type": "uint256"
                         },
-                        "id": 413,
+                        "id": 744,
                         "name": "ElementaryTypeName",
-                        "src": "129:7:7"
+                        "src": "129:7:8"
                       }
                     ],
-                    "id": 414,
+                    "id": 745,
                     "name": "VariableDeclaration",
-                    "src": "129:14:7"
+                    "src": "129:14:8"
                   },
                   {
                     "attributes": {
                       "constant": false,
                       "mutability": "mutable",
                       "name": "token",
-                      "scope": 421,
+                      "scope": 752,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "address",
@@ -287,21 +287,21 @@
                           "stateMutability": "nonpayable",
                           "type": "address"
                         },
-                        "id": 415,
+                        "id": 746,
                         "name": "ElementaryTypeName",
-                        "src": "154:7:7"
+                        "src": "154:7:8"
                       }
                     ],
-                    "id": 416,
+                    "id": 747,
                     "name": "VariableDeclaration",
-                    "src": "154:13:7"
+                    "src": "154:13:8"
                   },
                   {
                     "attributes": {
                       "constant": false,
                       "mutability": "mutable",
                       "name": "data",
-                      "scope": 421,
+                      "scope": 752,
                       "stateVariable": false,
                       "storageLocation": "memory",
                       "type": "bytes",
@@ -313,19 +313,19 @@
                           "name": "bytes",
                           "type": "bytes"
                         },
-                        "id": 417,
+                        "id": 748,
                         "name": "ElementaryTypeName",
-                        "src": "178:5:7"
+                        "src": "178:5:8"
                       }
                     ],
-                    "id": 418,
+                    "id": 749,
                     "name": "VariableDeclaration",
-                    "src": "178:17:7"
+                    "src": "178:17:8"
                   }
                 ],
-                "id": 419,
+                "id": 750,
                 "name": "ParameterList",
-                "src": "118:84:7"
+                "src": "118:84:8"
               },
               {
                 "attributes": {
@@ -334,24 +334,24 @@
                   ]
                 },
                 "children": [],
-                "id": 420,
+                "id": 751,
                 "name": "ParameterList",
-                "src": "211:0:7"
+                "src": "211:0:8"
               }
             ],
-            "id": 421,
+            "id": 752,
             "name": "FunctionDefinition",
-            "src": "92:120:7"
+            "src": "92:120:8"
           }
         ],
-        "id": 422,
+        "id": 753,
         "name": "ContractDefinition",
-        "src": "60:155:7"
+        "src": "60:155:8"
       }
     ],
-    "id": 423,
+    "id": 754,
     "name": "SourceUnit",
-    "src": "33:184:7"
+    "src": "33:184:8"
   },
   "compiler": {
     "name": "solc",
@@ -359,7 +359,7 @@
   },
   "networks": {},
   "schemaVersion": "3.3.3",
-  "updatedAt": "2021-02-18T12:22:38.785Z",
+  "updatedAt": "2021-02-18T17:21:48.634Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},

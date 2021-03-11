@@ -3,6 +3,7 @@ npm_modules/*
 node_modules
 node_modules/*
 .env
+.env_local
 logs/*
 logs
 examples/*
